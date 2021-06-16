@@ -17,7 +17,4 @@ venv.bak/
 **/__pycache__
 
 #project_out
-Import_Diva/
-Import_Pathfinder/
-Report_Diva/
-Report_Pathfinder/
+poetry.lock
