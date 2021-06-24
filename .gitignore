@@ -16,5 +16,9 @@ venv.bak/
 #win
 **/__pycache__
 
-#project_out
+#project_out_poetry
 poetry.lock
+
+#project_out_setup
+build/
+console_app.egg-info/
