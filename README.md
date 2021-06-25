@@ -16,3 +16,5 @@
 1) `python3 setup.py install` // install all packages and dependencies
 1) `greeting` // run script using entry point
 1) `greeting -n Name` // run script using entry point and click
+
+To create archive you need a command `python3 setup.py sdist`

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "console_app"
 version = "0.1.0"
-description = ""
+description = "This program is simple check how to create and use setup.py, click, poetry in project"
 authors = ["alisea-natan <liskin.sun@gmail.com>"]
 packages = [{include = "hello/*.py"}]
 
