@@ -22,4 +22,4 @@ poetry.lock
 #project_out_setup
 build/
 console_app.egg-info/
-*.egg
+dist/

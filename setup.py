@@ -1,5 +1,12 @@
 from setuptools import setup
 
+
+def read_requirements():
+    with open("requirements.txt", "r") as file:
+        requirements = [line.rstrip('\n') for line in file]
+    return requirements
+
+
 setup(
     name='console_app',
     version='0.1.0',
@@ -12,7 +19,7 @@ setup(
         'config': ['*'],
         'hello': ['*']
     },
-    install_requires=['pyyaml >= 5.4.1', 'click >= 8.0.1'],
+    install_requires=read_requirements(),
     entry_points={
         'console_scripts': [
             'greeting = hello.main:hi'
